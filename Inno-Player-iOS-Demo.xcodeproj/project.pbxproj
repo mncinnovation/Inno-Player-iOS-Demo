@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB7FFC5A25877706002A7582 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC5925877706002A7582 /* AppDelegate.m */; };
+		DB7FFC6025877706002A7582 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC5F25877706002A7582 /* ViewController.m */; };
+		DB7FFC6325877706002A7582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7FFC6125877706002A7582 /* Main.storyboard */; };
+		DB7FFC6525877708002A7582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7FFC6425877708002A7582 /* Assets.xcassets */; };
+		DB7FFC6825877708002A7582 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB7FFC6625877708002A7582 /* LaunchScreen.storyboard */; };
+		DB7FFC6B25877708002A7582 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC6A25877708002A7582 /* main.m */; };
+		DB7FFC7A258778A5002A7582 /* PlayerAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC79258778A5002A7582 /* PlayerAsset.m */; };
+		DB7FFC7E258778D2002A7582 /* PlayerAssetSection.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC7D258778D2002A7582 /* PlayerAssetSection.m */; };
+		DB7FFC822587790E002A7582 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7FFC812587790E002A7582 /* DetailViewController.m */; };
+		DB7FFC85258779EA002A7582 /* InnoPlayer_iOS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7FFC7525877824002A7582 /* InnoPlayer_iOS_SDK.framework */; };
+		DB7FFC86258779EA002A7582 /* InnoPlayer_iOS_SDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DB7FFC7525877824002A7582 /* InnoPlayer_iOS_SDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DB7FFC87258779EA002A7582 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DB7FFC86258779EA002A7582 /* InnoPlayer_iOS_SDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DB7FFC5525877706002A7582 /* Inno-Player-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Inno-Player-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7FFC5825877706002A7582 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB7FFC5925877706002A7582 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB7FFC5E25877706002A7582 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB7FFC5F25877706002A7582 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB7FFC6225877706002A7582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB7FFC6425877708002A7582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB7FFC6725877708002A7582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB7FFC6925877708002A7582 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB7FFC6A25877708002A7582 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB7FFC7525877824002A7582 /* InnoPlayer_iOS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InnoPlayer_iOS_SDK.framework; sourceTree = "<group>"; };
+		DB7FFC78258778A5002A7582 /* PlayerAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerAsset.h; sourceTree = "<group>"; };
+		DB7FFC79258778A5002A7582 /* PlayerAsset.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerAsset.m; sourceTree = "<group>"; };
+		DB7FFC7C258778D2002A7582 /* PlayerAssetSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerAssetSection.h; sourceTree = "<group>"; };
+		DB7FFC7D258778D2002A7582 /* PlayerAssetSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayerAssetSection.m; sourceTree = "<group>"; };
+		DB7FFC802587790E002A7582 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DB7FFC812587790E002A7582 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB7FFC5225877706002A7582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FFC85258779EA002A7582 /* InnoPlayer_iOS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB7FFC4C25877706002A7582 = {
+			isa = PBXGroup;
+			children = (
+				DB7FFC7525877824002A7582 /* InnoPlayer_iOS_SDK.framework */,
+				DB7FFC5725877706002A7582 /* Inno-Player-iOS-Demo */,
+				DB7FFC5625877706002A7582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB7FFC5625877706002A7582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FFC5525877706002A7582 /* Inno-Player-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB7FFC5725877706002A7582 /* Inno-Player-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FFC7425877745002A7582 /* Models */,
+				DB7FFC732587773C002A7582 /* Controllers */,
+				DB7FFC5825877706002A7582 /* AppDelegate.h */,
+				DB7FFC5925877706002A7582 /* AppDelegate.m */,
+				DB7FFC6125877706002A7582 /* Main.storyboard */,
+				DB7FFC6425877708002A7582 /* Assets.xcassets */,
+				DB7FFC6625877708002A7582 /* LaunchScreen.storyboard */,
+				DB7FFC6925877708002A7582 /* Info.plist */,
+				DB7FFC6A25877708002A7582 /* main.m */,
+			);
+			path = "Inno-Player-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		DB7FFC732587773C002A7582 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FFC5E25877706002A7582 /* ViewController.h */,
+				DB7FFC5F25877706002A7582 /* ViewController.m */,
+				DB7FFC802587790E002A7582 /* DetailViewController.h */,
+				DB7FFC812587790E002A7582 /* DetailViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DB7FFC7425877745002A7582 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB7FFC78258778A5002A7582 /* PlayerAsset.h */,
+				DB7FFC79258778A5002A7582 /* PlayerAsset.m */,
+				DB7FFC7C258778D2002A7582 /* PlayerAssetSection.h */,
+				DB7FFC7D258778D2002A7582 /* PlayerAssetSection.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB7FFC5425877706002A7582 /* Inno-Player-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB7FFC6E25877708002A7582 /* Build configuration list for PBXNativeTarget "Inno-Player-iOS-Demo" */;
+			buildPhases = (
+				DB7FFC5125877706002A7582 /* Sources */,
+				DB7FFC5225877706002A7582 /* Frameworks */,
+				DB7FFC5325877706002A7582 /* Resources */,
+				DB7FFC87258779EA002A7582 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Inno-Player-iOS-Demo";
+			productName = "Inno-Player-iOS-Demo";
+			productReference = DB7FFC5525877706002A7582 /* Inno-Player-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB7FFC4D25877706002A7582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					DB7FFC5425877706002A7582 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = DB7FFC5025877706002A7582 /* Build configuration list for PBXProject "Inno-Player-iOS-Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB7FFC4C25877706002A7582;
+			productRefGroup = DB7FFC5625877706002A7582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB7FFC5425877706002A7582 /* Inno-Player-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB7FFC5325877706002A7582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FFC6825877708002A7582 /* LaunchScreen.storyboard in Resources */,
+				DB7FFC6525877708002A7582 /* Assets.xcassets in Resources */,
+				DB7FFC6325877706002A7582 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB7FFC5125877706002A7582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB7FFC6025877706002A7582 /* ViewController.m in Sources */,
+				DB7FFC7E258778D2002A7582 /* PlayerAssetSection.m in Sources */,
+				DB7FFC7A258778A5002A7582 /* PlayerAsset.m in Sources */,
+				DB7FFC5A25877706002A7582 /* AppDelegate.m in Sources */,
+				DB7FFC6B25877708002A7582 /* main.m in Sources */,
+				DB7FFC822587790E002A7582 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB7FFC6125877706002A7582 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7FFC6225877706002A7582 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB7FFC6625877708002A7582 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB7FFC6725877708002A7582 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB7FFC6C25877708002A7582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB7FFC6D25877708002A7582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB7FFC6F25877708002A7582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Inno-Player-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.innoplayer.innoplayeriossdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB7FFC7025877708002A7582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Inno-Player-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.innoplayer.innoplayeriossdk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB7FFC5025877706002A7582 /* Build configuration list for PBXProject "Inno-Player-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7FFC6C25877708002A7582 /* Debug */,
+				DB7FFC6D25877708002A7582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB7FFC6E25877708002A7582 /* Build configuration list for PBXNativeTarget "Inno-Player-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB7FFC6F25877708002A7582 /* Debug */,
+				DB7FFC7025877708002A7582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB7FFC4D25877706002A7582 /* Project object */;
+}

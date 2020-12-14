@@ -1,0 +1,6 @@
+framework module InnoPlayer_iOS_SDK {
+  umbrella header "InnoPlayer_iOS_SDK.h"
+
+  export *
+  module * { export * }
+}
