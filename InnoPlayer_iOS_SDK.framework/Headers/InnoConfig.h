@@ -7,6 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InnoPlaylistItem.h"
+
+@class InnoPlaylistItem;
 
 @interface InnoConfig : NSObject
 
@@ -14,7 +17,7 @@
 
 @property(nonatomic, nullable, strong) NSArray *sources;
 
-@property(nonatomic, nullable, strong) NSArray *playlist;
+@property(nonatomic, nullable, strong) NSArray <InnoPlaylistItem *> *playlist;
 
 @property(nonatomic, nullable, strong) NSString *title;
 

@@ -21,4 +21,12 @@
 
 - (id _Nonnull)initWithFrame:(CGRect)frame andConfig:(InnoConfig *_Nonnull)config;
 
+- (void)play;
+
+- (void)pause;
+
+- (void)stop;
+
+- (void)seek:(NSInteger)position;
+
 @end

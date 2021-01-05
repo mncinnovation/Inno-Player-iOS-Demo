@@ -17,4 +17,6 @@ FOUNDATION_EXPORT const unsigned char InnoPlayer_iOS_SDKVersionString[];
 #import <InnoPlayer_iOS_SDK/InnoPlayerController.h>
 #import <InnoPlayer_iOS_SDK/InnoPlayerDelegate.h>
 #import <InnoPlayer_iOS_SDK/InnoConfig.h>
+#import <InnoPlayer_iOS_SDK/InnoPlaylistItem.h>
+#import <InnoPlayer_iOS_SDK/InnoError.h>
 

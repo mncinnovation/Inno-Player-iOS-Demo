@@ -29,8 +29,9 @@
     PlayerAssetSection * basic = [[PlayerAssetSection alloc]
                                   initWithTitle:STRING_BASIC_STREAMING
                                   assets:[NSArray arrayWithObjects:
-                                          [[PlayerAsset alloc] initWithURL:@"https://innoplayer.co/cdn/videos/la_chute_d_une_plume/index.m3u8" title:@"HLS"],
-                                          [[PlayerAsset alloc] initWithURL:@"https://innoplayer.co/cdn/videos/cosmos-laundromat/cosmos_laundromat_h264_master.m3u8" title:@"HLS (CMAF)"]
+                                          [[PlayerAsset alloc] initWithURL:@"https://nyoba.innoplayer.co/cdn/videos/la_chute_d_une_plume/index.m3u8" title:@"HLS"],
+                                          [[PlayerAsset alloc] initWithURL:@"https://nyoba.innoplayer.co/cdn/videos/cosmos-laundromat/cosmos_laundromat_h264_master.m3u8" title:@"HLS (CMAF)"],
+                                          [[PlayerAsset alloc] initWithURL:@"" title:@"Playlist"]
                                           , nil]
                                   ];
     

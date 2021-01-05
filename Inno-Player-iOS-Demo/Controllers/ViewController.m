@@ -67,8 +67,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    DetailViewController * detailViewController = [[DetailViewController alloc] initWithAsset:[[[array objectAtIndex:indexPath.section] assets] objectAtIndex:indexPath.row]];
-    [self.navigationController pushViewController:detailViewController animated:YES];
+    PlayerAsset * asset = [[array objectAtIndex:indexPath.section].assets objectAtIndex:indexPath.row];
+    
+    if (asset.url.length == 0) {
+        DetailViewController * detailViewController = [[DetailViewController alloc] init];
+        [self.navigationController pushViewController:detailViewController animated:YES];
+    } else {
+        DetailViewController * detailViewController = [[DetailViewController alloc] initWithAsset:[[[array objectAtIndex:indexPath.section] assets] objectAtIndex:indexPath.row]];
+        [self.navigationController pushViewController:detailViewController animated:YES];
+    }
 }
 
 @end

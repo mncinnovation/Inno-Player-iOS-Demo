@@ -49,9 +49,22 @@
 }
 
 - (void)setupPlayer {
-    if (self.asset == nil) { return; }
+    InnoConfig * config = [[InnoConfig alloc] init];
     
-    InnoConfig * config = [[InnoConfig alloc] initWithContentURL:self.asset.url];
+    if (self.asset == nil) {
+        InnoPlaylistItem * item1 = [[InnoPlaylistItem alloc] init];
+        item1.file = @"https://nyoba.innoplayer.co/cdn/videos/la_chute_d_une_plume/index.m3u8";
+        item1.title = @"Video 1";
+        
+        InnoPlaylistItem * item2 = [[InnoPlaylistItem alloc] init];
+        item2.file = @"https://nyoba.innoplayer.co/cdn/videos/cosmos-laundromat/cosmos_laundromat_h264_master.m3u8";
+        item2.title = @"Video 2";
+        
+        config.playlist = [[NSArray alloc] initWithObjects:item1, item2, nil];
+
+    } else {
+        config.file = self.asset.url;
+    }
     
     CGRect frame = CGRectMake(0.0f, 0.0f, self.playerView.frame.size.width, self.playerView.frame.size.height);
     

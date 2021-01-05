@@ -7,8 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "InnoError.h"
 
 @protocol InnoPlayerDelegate
+
+- (void)onInnoPlayerSuccess:(NSString *)message;
+- (void)onInnoPlayerError:(InnoError *)error;
 
 @end
 
